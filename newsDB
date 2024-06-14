@@ -1,0 +1,10 @@
+#2024-06-14------------------------------------------------------------------------------------------------------------
+CREATE TABLE news (
+	aid int not null primary key auto_increment,
+    title varchar(255) not null,
+    img varchar(255) not null,
+    date timestamp,
+    content varchar(255) not null
+);
+
+select * from news;
